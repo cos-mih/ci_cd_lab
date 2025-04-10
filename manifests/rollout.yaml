@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/cos-mih/ci_cd_lab:2
+          image: ghcr.io/cos-mih/ci_cd_lab:2342
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
