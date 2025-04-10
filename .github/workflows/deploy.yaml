@@ -39,5 +39,4 @@ jobs:
         run: go mod download
 
       - name: Compile binary
-        needs: test
         run: go build -o myapp
